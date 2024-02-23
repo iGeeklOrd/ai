@@ -3,7 +3,7 @@ class node() :
     def __init__(self, nodeName, children, parent) :
         self.nodeName = nodeName
         self.children = children
-        self.parent = parent
+        self.parent = parent  
         self.level = 0
         
         if(self.parent != None):
